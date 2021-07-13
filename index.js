@@ -1,0 +1,21 @@
+  $("#arrow").on("click",()=>{
+    $(".arrow-down").toggleClass("arrow-up");
+    $(".sub-text").toggle("slow");
+});
+$("#arrow2").on("click",()=>{
+  $(".arrow-down2").toggleClass("arrow-up");
+  $(".sub-text2").toggle("slow");
+});
+$("#arrow3").on("click",()=>{
+  $(".arrow-down3").toggleClass("arrow-up");
+  $(".sub-text3").toggle("slow");
+});
+$("#arrow4").on("click",()=>{
+$(".arrow-down4").toggleClass("arrow-up");
+$(".sub-text4").toggle("slow");
+});
+
+$("#arrow5").on("click",()=>{
+  $(".arrow-down5").toggleClass("arrow-up");
+  $(".sub-text5").toggle("slow");
+});
